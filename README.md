@@ -15,14 +15,6 @@ It is designed to **keep users focused and active while studying or working**, g
 
 ---
 
-## 🛠️ Tech Stack
-- **HTML / CSS / JavaScript** – Frontend & extension UI
-- **Chrome Extension APIs** – Popup & background functionality
-- **Fetch API** – To get quotes from the public API
-- Optional: Local caching for offline usage
-
----
-
 ## ⚙️ How to Install (Local)
 1. Download or clone this repository
 2. Open Chrome → `chrome://extensions`
@@ -31,7 +23,9 @@ It is designed to **keep users focused and active while studying or working**, g
 5. Select the project folder
 
 ## 📸 Screenshots
-[Quotes Display] (Screenshot 2026-01-21 000647.png)
+
+![Quotes Display](./screenshot/demo pic.png)
+
 
 ## 🚀 Future Improvements
 - Category-based quotes
