@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 320px; /* Thoda wide kiya hai layout ke liye */
+  min-height: 250px;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  /* Random nature image background mein aayegi */
+  background: url('https://picsum.photos/320/250?blur=2') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  padding: 20px;
+  /* Glassmorphism Effect */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: transform 0.3s ease;
+}
+
+#quote-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+#author-text {
+  font-size: 13px;
+  font-style: italic;
+  color: #f1f1f1;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: white;
+  color: #764ba2;
+}
