@@ -24,7 +24,10 @@ It is designed to **keep users focused and active while studying or working**, g
 
 ## 📸 Screenshots
 
-![Quotes Display](./screenshot/demo pic.png)
+## 📸 Screenshots
+
+![Quotes Display](./screenshot/Screenshot%202026-01-21%20000647.png)
+
 
 
 ## 🚀 Future Improvements
